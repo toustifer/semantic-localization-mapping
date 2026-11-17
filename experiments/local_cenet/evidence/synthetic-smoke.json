@@ -1,0 +1,91 @@
+{
+  "purpose": "synthetic input deployment smoke test, not segmentation accuracy or end-to-end latency",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "python": "3.10.12",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "shape": [
+    1,
+    5,
+    64,
+    2048
+  ],
+  "commit": "dc6b23a4e6568ad4ef0b7652e458c1e6aeb6c508",
+  "model_sha256": "ddc9264a52d912a41ae3f3cade45b70229e93271e7d87bed9c1a5b872f150cdd",
+  "measurements": [
+    {
+      "precision": "fp32",
+      "warmup": 10,
+      "samples": 50,
+      "median_ms": 122.26647800000023,
+      "mean_ms": 124.0707902400004,
+      "p95_ms": 132.69372000002022,
+      "peak_allocated_MiB": 1035.18359375,
+      "peak_reserved_MiB": 1244.0,
+      "outputs": [
+        [
+          1,
+          20,
+          64,
+          2048
+        ],
+        [
+          1,
+          20,
+          64,
+          2048
+        ],
+        [
+          1,
+          20,
+          64,
+          2048
+        ],
+        [
+          1,
+          20,
+          64,
+          2048
+        ]
+      ],
+      "finite": true
+    },
+    {
+      "precision": "fp16",
+      "warmup": 10,
+      "samples": 50,
+      "median_ms": 72.99385950001636,
+      "mean_ms": 75.82705092000253,
+      "p95_ms": 81.81157600000688,
+      "peak_allocated_MiB": 711.0947265625,
+      "peak_reserved_MiB": 868.0,
+      "outputs": [
+        [
+          1,
+          20,
+          64,
+          2048
+        ],
+        [
+          1,
+          20,
+          64,
+          2048
+        ],
+        [
+          1,
+          20,
+          64,
+          2048
+        ],
+        [
+          1,
+          20,
+          64,
+          2048
+        ]
+      ],
+      "finite": true
+    }
+  ]
+}

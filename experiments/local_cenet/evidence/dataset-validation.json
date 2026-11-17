@@ -1,0 +1,14 @@
+{
+  "sequence": "06",
+  "first_frame": 0,
+  "last_frame": 199,
+  "frames": 200,
+  "duration_seconds": 20.68927,
+  "points_min": 117459,
+  "points_max": 124383,
+  "pointcloud_bytes": 392532416,
+  "finite": true,
+  "hashes_verified": true,
+  "pose_note": "Official odometry camera poses. Convert with calib Tr before LiDAR frame evaluation.",
+  "labels": "No SemanticKITTI manual labels downloaded."
+}

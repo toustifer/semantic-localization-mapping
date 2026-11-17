@@ -8,3 +8,6 @@ __pycache__/
 data/
 datasets/
 checkpoints/
+experiments/local_cenet/source/
+experiments/local_cenet/results/
+experiments/local_cenet/venv/

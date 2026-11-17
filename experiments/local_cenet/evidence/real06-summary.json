@@ -1,0 +1,1834 @@
+{
+  "frames": 200,
+  "precision": "fp16",
+  "postprocess": "direct pixel unprojection, no KNN",
+  "accuracy": "not evaluated: no ground truth labels",
+  "median_forward_ms": 59.942955000224174,
+  "p95_forward_ms": 72.97988479986088,
+  "median_pipeline_ms_excluding_first": 119.57096300102421,
+  "class_point_counts": {
+    "unlabeled": 505521,
+    "car": 782941,
+    "bicycle": 7952,
+    "motorcycle": 2174,
+    "truck": 543476,
+    "other-vehicle": 217210,
+    "person": 4405,
+    "bicyclist": 44,
+    "motorcyclist": 3,
+    "road": 4284822,
+    "parking": 238625,
+    "sidewalk": 3340070,
+    "other-ground": 1369220,
+    "building": 2177443,
+    "fence": 765757,
+    "vegetation": 2965645,
+    "trunk": 458859,
+    "terrain": 6517291,
+    "pole": 290585,
+    "traffic-sign": 61233
+  },
+  "projection_note": "Nearest per pixel; index 0 valid (upstream Python mask uses >0). No temporal fusion.",
+  "records": [
+    {
+      "frame": "000000",
+      "points": 123020,
+      "occupied_pixels": 96823,
+      "inference_ms": 65.19975600167527,
+      "pipeline_ms": 2231.6158529974928,
+      "mean_point_confidence": 0.9417307376861572,
+      "prob_sum_max_error": 0.00040519237518310547
+    },
+    {
+      "frame": "000001",
+      "points": 123445,
+      "occupied_pixels": 97023,
+      "inference_ms": 57.271030000265455,
+      "pipeline_ms": 122.78602700098418,
+      "mean_point_confidence": 0.9457804560661316,
+      "prob_sum_max_error": 0.0003801584243774414
+    },
+    {
+      "frame": "000002",
+      "points": 123251,
+      "occupied_pixels": 97248,
+      "inference_ms": 58.401010999659775,
+      "pipeline_ms": 110.20179400293273,
+      "mean_point_confidence": 0.9522520303726196,
+      "prob_sum_max_error": 0.0003644227981567383
+    },
+    {
+      "frame": "000003",
+      "points": 123083,
+      "occupied_pixels": 97456,
+      "inference_ms": 58.5957689982024,
+      "pipeline_ms": 107.02266400039662,
+      "mean_point_confidence": 0.9489333033561707,
+      "prob_sum_max_error": 0.00037598609924316406
+    },
+    {
+      "frame": "000004",
+      "points": 122814,
+      "occupied_pixels": 97211,
+      "inference_ms": 56.713590001891134,
+      "pipeline_ms": 106.24428500159411,
+      "mean_point_confidence": 0.9508072137832642,
+      "prob_sum_max_error": 0.00037294626235961914
+    },
+    {
+      "frame": "000005",
+      "points": 122405,
+      "occupied_pixels": 97103,
+      "inference_ms": 58.56858999686665,
+      "pipeline_ms": 106.24710800038883,
+      "mean_point_confidence": 0.9505351781845093,
+      "prob_sum_max_error": 0.0003750324249267578
+    },
+    {
+      "frame": "000006",
+      "points": 122265,
+      "occupied_pixels": 97001,
+      "inference_ms": 60.46875299944077,
+      "pipeline_ms": 115.23055900033796,
+      "mean_point_confidence": 0.9522111415863037,
+      "prob_sum_max_error": 0.0003714561462402344
+    },
+    {
+      "frame": "000007",
+      "points": 121615,
+      "occupied_pixels": 96531,
+      "inference_ms": 62.65165900185821,
+      "pipeline_ms": 120.99065800066455,
+      "mean_point_confidence": 0.9545243978500366,
+      "prob_sum_max_error": 0.0003732442855834961
+    },
+    {
+      "frame": "000008",
+      "points": 121132,
+      "occupied_pixels": 95845,
+      "inference_ms": 63.165913001284935,
+      "pipeline_ms": 123.98482800199417,
+      "mean_point_confidence": 0.95467209815979,
+      "prob_sum_max_error": 0.00036644935607910156
+    },
+    {
+      "frame": "000009",
+      "points": 120303,
+      "occupied_pixels": 94973,
+      "inference_ms": 74.68117600001278,
+      "pipeline_ms": 155.16448199923616,
+      "mean_point_confidence": 0.9544072151184082,
+      "prob_sum_max_error": 0.00037169456481933594
+    },
+    {
+      "frame": "000010",
+      "points": 118870,
+      "occupied_pixels": 93276,
+      "inference_ms": 66.77063700044528,
+      "pipeline_ms": 134.08189000256243,
+      "mean_point_confidence": 0.9556374549865723,
+      "prob_sum_max_error": 0.0003743171691894531
+    },
+    {
+      "frame": "000011",
+      "points": 118105,
+      "occupied_pixels": 92099,
+      "inference_ms": 59.41492800047854,
+      "pipeline_ms": 110.1991210016422,
+      "mean_point_confidence": 0.9548415541648865,
+      "prob_sum_max_error": 0.00036776065826416016
+    },
+    {
+      "frame": "000012",
+      "points": 118379,
+      "occupied_pixels": 91646,
+      "inference_ms": 61.74403600016376,
+      "pipeline_ms": 114.45476700100699,
+      "mean_point_confidence": 0.9563722014427185,
+      "prob_sum_max_error": 0.0003845691680908203
+    },
+    {
+      "frame": "000013",
+      "points": 118500,
+      "occupied_pixels": 92228,
+      "inference_ms": 59.37583599734353,
+      "pipeline_ms": 107.90294400067069,
+      "mean_point_confidence": 0.9590510129928589,
+      "prob_sum_max_error": 0.00037670135498046875
+    },
+    {
+      "frame": "000014",
+      "points": 118286,
+      "occupied_pixels": 91627,
+      "inference_ms": 59.781361000204924,
+      "pipeline_ms": 175.36971899971832,
+      "mean_point_confidence": 0.9612526893615723,
+      "prob_sum_max_error": 0.0003896951675415039
+    },
+    {
+      "frame": "000015",
+      "points": 119285,
+      "occupied_pixels": 92335,
+      "inference_ms": 59.13750699983211,
+      "pipeline_ms": 216.7392250012199,
+      "mean_point_confidence": 0.9599804878234863,
+      "prob_sum_max_error": 0.0003687739372253418
+    },
+    {
+      "frame": "000016",
+      "points": 120754,
+      "occupied_pixels": 94002,
+      "inference_ms": 58.749234998686006,
+      "pipeline_ms": 199.0635789989028,
+      "mean_point_confidence": 0.9634507894515991,
+      "prob_sum_max_error": 0.00036776065826416016
+    },
+    {
+      "frame": "000017",
+      "points": 121539,
+      "occupied_pixels": 94465,
+      "inference_ms": 58.92778399720555,
+      "pipeline_ms": 153.82988799683517,
+      "mean_point_confidence": 0.9661159515380859,
+      "prob_sum_max_error": 0.0003857612609863281
+    },
+    {
+      "frame": "000018",
+      "points": 122178,
+      "occupied_pixels": 95491,
+      "inference_ms": 58.76594899746124,
+      "pipeline_ms": 113.27531899951282,
+      "mean_point_confidence": 0.9658281803131104,
+      "prob_sum_max_error": 0.00036460161209106445
+    },
+    {
+      "frame": "000019",
+      "points": 122753,
+      "occupied_pixels": 96171,
+      "inference_ms": 59.20347400024184,
+      "pipeline_ms": 109.58305199892493,
+      "mean_point_confidence": 0.9661014080047607,
+      "prob_sum_max_error": 0.00037419795989990234
+    },
+    {
+      "frame": "000020",
+      "points": 123229,
+      "occupied_pixels": 96360,
+      "inference_ms": 58.421221998287365,
+      "pipeline_ms": 106.44907599998987,
+      "mean_point_confidence": 0.9685056209564209,
+      "prob_sum_max_error": 0.0003935694694519043
+    },
+    {
+      "frame": "000021",
+      "points": 123508,
+      "occupied_pixels": 96717,
+      "inference_ms": 59.54163500064169,
+      "pipeline_ms": 104.86421799942036,
+      "mean_point_confidence": 0.965499758720398,
+      "prob_sum_max_error": 0.0003834962844848633
+    },
+    {
+      "frame": "000022",
+      "points": 123542,
+      "occupied_pixels": 96210,
+      "inference_ms": 58.1947000027867,
+      "pipeline_ms": 102.62299999885727,
+      "mean_point_confidence": 0.9639526605606079,
+      "prob_sum_max_error": 0.00036144256591796875
+    },
+    {
+      "frame": "000023",
+      "points": 123517,
+      "occupied_pixels": 96599,
+      "inference_ms": 59.037606999481795,
+      "pipeline_ms": 103.87297000124818,
+      "mean_point_confidence": 0.9619580507278442,
+      "prob_sum_max_error": 0.0003864765167236328
+    },
+    {
+      "frame": "000024",
+      "points": 123280,
+      "occupied_pixels": 96368,
+      "inference_ms": 58.628954997402616,
+      "pipeline_ms": 107.87798299861606,
+      "mean_point_confidence": 0.9638538956642151,
+      "prob_sum_max_error": 0.0003834366798400879
+    },
+    {
+      "frame": "000025",
+      "points": 123092,
+      "occupied_pixels": 96389,
+      "inference_ms": 59.51259299763478,
+      "pipeline_ms": 104.74286499811569,
+      "mean_point_confidence": 0.9626027941703796,
+      "prob_sum_max_error": 0.0003680586814880371
+    },
+    {
+      "frame": "000026",
+      "points": 122720,
+      "occupied_pixels": 96540,
+      "inference_ms": 63.30610599979991,
+      "pipeline_ms": 107.32333900159574,
+      "mean_point_confidence": 0.9644903540611267,
+      "prob_sum_max_error": 0.00036519765853881836
+    },
+    {
+      "frame": "000027",
+      "points": 122326,
+      "occupied_pixels": 96350,
+      "inference_ms": 59.634543998981826,
+      "pipeline_ms": 113.9747150009498,
+      "mean_point_confidence": 0.967467188835144,
+      "prob_sum_max_error": 0.0003737211227416992
+    },
+    {
+      "frame": "000028",
+      "points": 122084,
+      "occupied_pixels": 96284,
+      "inference_ms": 63.60377800228889,
+      "pipeline_ms": 112.29459999958635,
+      "mean_point_confidence": 0.9644166827201843,
+      "prob_sum_max_error": 0.00039136409759521484
+    },
+    {
+      "frame": "000029",
+      "points": 121413,
+      "occupied_pixels": 95420,
+      "inference_ms": 64.00356499943882,
+      "pipeline_ms": 111.11239499950898,
+      "mean_point_confidence": 0.9672136902809143,
+      "prob_sum_max_error": 0.0003656148910522461
+    },
+    {
+      "frame": "000030",
+      "points": 120330,
+      "occupied_pixels": 94043,
+      "inference_ms": 60.36252500052797,
+      "pipeline_ms": 105.77373699925374,
+      "mean_point_confidence": 0.9672859311103821,
+      "prob_sum_max_error": 0.000377655029296875
+    },
+    {
+      "frame": "000031",
+      "points": 119567,
+      "occupied_pixels": 93400,
+      "inference_ms": 58.68008099787403,
+      "pipeline_ms": 103.7897679998423,
+      "mean_point_confidence": 0.9653185606002808,
+      "prob_sum_max_error": 0.0003656148910522461
+    },
+    {
+      "frame": "000032",
+      "points": 119988,
+      "occupied_pixels": 93411,
+      "inference_ms": 61.54694799988647,
+      "pipeline_ms": 111.91247500028112,
+      "mean_point_confidence": 0.9645689129829407,
+      "prob_sum_max_error": 0.00037038326263427734
+    },
+    {
+      "frame": "000033",
+      "points": 120611,
+      "occupied_pixels": 93983,
+      "inference_ms": 68.95667599746957,
+      "pipeline_ms": 125.95406699983869,
+      "mean_point_confidence": 0.9627565145492554,
+      "prob_sum_max_error": 0.0003637075424194336
+    },
+    {
+      "frame": "000034",
+      "points": 121644,
+      "occupied_pixels": 94470,
+      "inference_ms": 74.8430029998417,
+      "pipeline_ms": 293.98532599952887,
+      "mean_point_confidence": 0.9572523236274719,
+      "prob_sum_max_error": 0.0003801584243774414
+    },
+    {
+      "frame": "000035",
+      "points": 122051,
+      "occupied_pixels": 94761,
+      "inference_ms": 78.8222000010137,
+      "pipeline_ms": 250.4434090005816,
+      "mean_point_confidence": 0.9545602202415466,
+      "prob_sum_max_error": 0.00036144256591796875
+    },
+    {
+      "frame": "000036",
+      "points": 122356,
+      "occupied_pixels": 95611,
+      "inference_ms": 74.03578800222022,
+      "pipeline_ms": 204.25318599882303,
+      "mean_point_confidence": 0.9550914764404297,
+      "prob_sum_max_error": 0.00037741661071777344
+    },
+    {
+      "frame": "000037",
+      "points": 122900,
+      "occupied_pixels": 95995,
+      "inference_ms": 59.942312000202946,
+      "pipeline_ms": 174.4090239990328,
+      "mean_point_confidence": 0.9539257884025574,
+      "prob_sum_max_error": 0.00036537647247314453
+    },
+    {
+      "frame": "000038",
+      "points": 123157,
+      "occupied_pixels": 96873,
+      "inference_ms": 63.332555000670254,
+      "pipeline_ms": 158.67326900115586,
+      "mean_point_confidence": 0.959322988986969,
+      "prob_sum_max_error": 0.0003762245178222656
+    },
+    {
+      "frame": "000039",
+      "points": 123204,
+      "occupied_pixels": 96886,
+      "inference_ms": 58.55116699967766,
+      "pipeline_ms": 139.73346599959768,
+      "mean_point_confidence": 0.959224283695221,
+      "prob_sum_max_error": 0.00037419795989990234
+    },
+    {
+      "frame": "000040",
+      "points": 123027,
+      "occupied_pixels": 96228,
+      "inference_ms": 58.991524998418754,
+      "pipeline_ms": 142.98232800138067,
+      "mean_point_confidence": 0.9616204500198364,
+      "prob_sum_max_error": 0.0003730654716491699
+    },
+    {
+      "frame": "000041",
+      "points": 122932,
+      "occupied_pixels": 96394,
+      "inference_ms": 58.198506001645,
+      "pipeline_ms": 167.4971780012129,
+      "mean_point_confidence": 0.9582722783088684,
+      "prob_sum_max_error": 0.0003609657287597656
+    },
+    {
+      "frame": "000042",
+      "points": 122945,
+      "occupied_pixels": 96233,
+      "inference_ms": 57.962719998613466,
+      "pipeline_ms": 151.8423609995807,
+      "mean_point_confidence": 0.9584499001502991,
+      "prob_sum_max_error": 0.0003688335418701172
+    },
+    {
+      "frame": "000043",
+      "points": 122713,
+      "occupied_pixels": 96184,
+      "inference_ms": 58.98020500171697,
+      "pipeline_ms": 127.33928200032096,
+      "mean_point_confidence": 0.9562930464744568,
+      "prob_sum_max_error": 0.00036406517028808594
+    },
+    {
+      "frame": "000044",
+      "points": 122966,
+      "occupied_pixels": 96520,
+      "inference_ms": 60.30657500014058,
+      "pipeline_ms": 112.61149100027978,
+      "mean_point_confidence": 0.95986008644104,
+      "prob_sum_max_error": 0.0003668069839477539
+    },
+    {
+      "frame": "000045",
+      "points": 122712,
+      "occupied_pixels": 95685,
+      "inference_ms": 70.83829000112019,
+      "pipeline_ms": 182.3831470028381,
+      "mean_point_confidence": 0.9588980078697205,
+      "prob_sum_max_error": 0.00037294626235961914
+    },
+    {
+      "frame": "000046",
+      "points": 122641,
+      "occupied_pixels": 95652,
+      "inference_ms": 69.07512800171389,
+      "pipeline_ms": 240.05442400084576,
+      "mean_point_confidence": 0.9554567337036133,
+      "prob_sum_max_error": 0.0003795623779296875
+    },
+    {
+      "frame": "000047",
+      "points": 122808,
+      "occupied_pixels": 95421,
+      "inference_ms": 74.4118319998961,
+      "pipeline_ms": 144.79182300055982,
+      "mean_point_confidence": 0.9535212516784668,
+      "prob_sum_max_error": 0.000362396240234375
+    },
+    {
+      "frame": "000048",
+      "points": 122905,
+      "occupied_pixels": 95515,
+      "inference_ms": 74.1513009998016,
+      "pipeline_ms": 132.50677099858876,
+      "mean_point_confidence": 0.9537793397903442,
+      "prob_sum_max_error": 0.0003552436828613281
+    },
+    {
+      "frame": "000049",
+      "points": 122902,
+      "occupied_pixels": 96229,
+      "inference_ms": 73.0937090011139,
+      "pipeline_ms": 127.02964999698452,
+      "mean_point_confidence": 0.9491981267929077,
+      "prob_sum_max_error": 0.0003775954246520996
+    },
+    {
+      "frame": "000050",
+      "points": 122918,
+      "occupied_pixels": 95497,
+      "inference_ms": 75.232273000438,
+      "pipeline_ms": 149.80925700001535,
+      "mean_point_confidence": 0.9544801712036133,
+      "prob_sum_max_error": 0.0003788471221923828
+    },
+    {
+      "frame": "000051",
+      "points": 122959,
+      "occupied_pixels": 96035,
+      "inference_ms": 73.00543599922094,
+      "pipeline_ms": 169.0450400019472,
+      "mean_point_confidence": 0.9481640458106995,
+      "prob_sum_max_error": 0.00037860870361328125
+    },
+    {
+      "frame": "000052",
+      "points": 123136,
+      "occupied_pixels": 96126,
+      "inference_ms": 72.95092300046235,
+      "pipeline_ms": 158.37897500023246,
+      "mean_point_confidence": 0.950554370880127,
+      "prob_sum_max_error": 0.0003750324249267578
+    },
+    {
+      "frame": "000053",
+      "points": 123375,
+      "occupied_pixels": 95767,
+      "inference_ms": 72.4889909979538,
+      "pipeline_ms": 143.05634899938013,
+      "mean_point_confidence": 0.9508635997772217,
+      "prob_sum_max_error": 0.00036978721618652344
+    },
+    {
+      "frame": "000054",
+      "points": 123543,
+      "occupied_pixels": 96248,
+      "inference_ms": 72.38079800299602,
+      "pipeline_ms": 142.78924199970788,
+      "mean_point_confidence": 0.9496198296546936,
+      "prob_sum_max_error": 0.0003681182861328125
+    },
+    {
+      "frame": "000055",
+      "points": 123600,
+      "occupied_pixels": 95401,
+      "inference_ms": 65.41393000225071,
+      "pipeline_ms": 137.18737599992892,
+      "mean_point_confidence": 0.9481559991836548,
+      "prob_sum_max_error": 0.00037616491317749023
+    },
+    {
+      "frame": "000056",
+      "points": 123126,
+      "occupied_pixels": 95134,
+      "inference_ms": 58.876169998256955,
+      "pipeline_ms": 124.45445300181746,
+      "mean_point_confidence": 0.9454286098480225,
+      "prob_sum_max_error": 0.0003572702407836914
+    },
+    {
+      "frame": "000057",
+      "points": 122956,
+      "occupied_pixels": 94317,
+      "inference_ms": 62.28278699927614,
+      "pipeline_ms": 125.99639900145121,
+      "mean_point_confidence": 0.9362649321556091,
+      "prob_sum_max_error": 0.0003916621208190918
+    },
+    {
+      "frame": "000058",
+      "points": 122867,
+      "occupied_pixels": 93725,
+      "inference_ms": 65.31072399957338,
+      "pipeline_ms": 158.16719400027068,
+      "mean_point_confidence": 0.9407877326011658,
+      "prob_sum_max_error": 0.0003635883331298828
+    },
+    {
+      "frame": "000059",
+      "points": 122901,
+      "occupied_pixels": 94066,
+      "inference_ms": 62.99233599929721,
+      "pipeline_ms": 329.44382799905725,
+      "mean_point_confidence": 0.9419810771942139,
+      "prob_sum_max_error": 0.0003616809844970703
+    },
+    {
+      "frame": "000060",
+      "points": 122828,
+      "occupied_pixels": 93560,
+      "inference_ms": 57.69619299826445,
+      "pipeline_ms": 162.5367289998394,
+      "mean_point_confidence": 0.9373152852058411,
+      "prob_sum_max_error": 0.00037300586700439453
+    },
+    {
+      "frame": "000061",
+      "points": 122943,
+      "occupied_pixels": 94324,
+      "inference_ms": 59.30025099951308,
+      "pipeline_ms": 111.7182119996869,
+      "mean_point_confidence": 0.9347288608551025,
+      "prob_sum_max_error": 0.0003705024719238281
+    },
+    {
+      "frame": "000062",
+      "points": 122873,
+      "occupied_pixels": 94315,
+      "inference_ms": 60.71432200042182,
+      "pipeline_ms": 128.70375200145645,
+      "mean_point_confidence": 0.9367449283599854,
+      "prob_sum_max_error": 0.00037682056427001953
+    },
+    {
+      "frame": "000063",
+      "points": 122625,
+      "occupied_pixels": 92980,
+      "inference_ms": 58.53479000143125,
+      "pipeline_ms": 163.772768999479,
+      "mean_point_confidence": 0.9330825209617615,
+      "prob_sum_max_error": 0.00037038326263427734
+    },
+    {
+      "frame": "000064",
+      "points": 122474,
+      "occupied_pixels": 93200,
+      "inference_ms": 58.32700499740895,
+      "pipeline_ms": 113.9926479991118,
+      "mean_point_confidence": 0.9282422661781311,
+      "prob_sum_max_error": 0.00039577484130859375
+    },
+    {
+      "frame": "000065",
+      "points": 122416,
+      "occupied_pixels": 92884,
+      "inference_ms": 57.57738700049231,
+      "pipeline_ms": 117.88299299951177,
+      "mean_point_confidence": 0.9270145297050476,
+      "prob_sum_max_error": 0.00036913156509399414
+    },
+    {
+      "frame": "000066",
+      "points": 122588,
+      "occupied_pixels": 94078,
+      "inference_ms": 72.69692800036864,
+      "pipeline_ms": 148.9088169983006,
+      "mean_point_confidence": 0.9384151697158813,
+      "prob_sum_max_error": 0.0003750324249267578
+    },
+    {
+      "frame": "000067",
+      "points": 122756,
+      "occupied_pixels": 93842,
+      "inference_ms": 67.59211100143148,
+      "pipeline_ms": 167.87584100165986,
+      "mean_point_confidence": 0.9433339834213257,
+      "prob_sum_max_error": 0.0003764629364013672
+    },
+    {
+      "frame": "000068",
+      "points": 122740,
+      "occupied_pixels": 92721,
+      "inference_ms": 62.79189799897722,
+      "pipeline_ms": 162.48119300144026,
+      "mean_point_confidence": 0.9400362372398376,
+      "prob_sum_max_error": 0.00036394596099853516
+    },
+    {
+      "frame": "000069",
+      "points": 123001,
+      "occupied_pixels": 91837,
+      "inference_ms": 64.23587799872621,
+      "pipeline_ms": 136.5676519999397,
+      "mean_point_confidence": 0.916064441204071,
+      "prob_sum_max_error": 0.0003845691680908203
+    },
+    {
+      "frame": "000070",
+      "points": 123528,
+      "occupied_pixels": 89522,
+      "inference_ms": 61.790649000613485,
+      "pipeline_ms": 162.00975899846526,
+      "mean_point_confidence": 0.8867992758750916,
+      "prob_sum_max_error": 0.000372469425201416
+    },
+    {
+      "frame": "000071",
+      "points": 123578,
+      "occupied_pixels": 89749,
+      "inference_ms": 62.851981001585955,
+      "pipeline_ms": 134.5515430002706,
+      "mean_point_confidence": 0.8721715807914734,
+      "prob_sum_max_error": 0.0003833770751953125
+    },
+    {
+      "frame": "000072",
+      "points": 123259,
+      "occupied_pixels": 89957,
+      "inference_ms": 60.605078000662616,
+      "pipeline_ms": 222.75872500176774,
+      "mean_point_confidence": 0.8771718144416809,
+      "prob_sum_max_error": 0.00038754940032958984
+    },
+    {
+      "frame": "000073",
+      "points": 122615,
+      "occupied_pixels": 89220,
+      "inference_ms": 63.82404999749269,
+      "pipeline_ms": 150.45516800091718,
+      "mean_point_confidence": 0.8774045705795288,
+      "prob_sum_max_error": 0.0003807544708251953
+    },
+    {
+      "frame": "000074",
+      "points": 121410,
+      "occupied_pixels": 90189,
+      "inference_ms": 63.315311999758705,
+      "pipeline_ms": 149.19137399920146,
+      "mean_point_confidence": 0.8943372368812561,
+      "prob_sum_max_error": 0.0003806948661804199
+    },
+    {
+      "frame": "000075",
+      "points": 122193,
+      "occupied_pixels": 90841,
+      "inference_ms": 62.32583700329997,
+      "pipeline_ms": 148.41315299781854,
+      "mean_point_confidence": 0.8978112936019897,
+      "prob_sum_max_error": 0.00039887428283691406
+    },
+    {
+      "frame": "000076",
+      "points": 121111,
+      "occupied_pixels": 92485,
+      "inference_ms": 64.72082199979923,
+      "pipeline_ms": 133.0779989984876,
+      "mean_point_confidence": 0.927047848701477,
+      "prob_sum_max_error": 0.0003713369369506836
+    },
+    {
+      "frame": "000077",
+      "points": 121641,
+      "occupied_pixels": 93933,
+      "inference_ms": 64.16447599985986,
+      "pipeline_ms": 129.21258700225735,
+      "mean_point_confidence": 0.9451375007629395,
+      "prob_sum_max_error": 0.0003732442855834961
+    },
+    {
+      "frame": "000078",
+      "points": 121858,
+      "occupied_pixels": 94170,
+      "inference_ms": 60.50604300253326,
+      "pipeline_ms": 126.30349200117053,
+      "mean_point_confidence": 0.9523839950561523,
+      "prob_sum_max_error": 0.00036972761154174805
+    },
+    {
+      "frame": "000079",
+      "points": 122433,
+      "occupied_pixels": 95372,
+      "inference_ms": 65.93566499941517,
+      "pipeline_ms": 139.26094099952024,
+      "mean_point_confidence": 0.9537464380264282,
+      "prob_sum_max_error": 0.0003597140312194824
+    },
+    {
+      "frame": "000080",
+      "points": 122691,
+      "occupied_pixels": 95006,
+      "inference_ms": 68.53619799949229,
+      "pipeline_ms": 136.13169900054345,
+      "mean_point_confidence": 0.9548516273498535,
+      "prob_sum_max_error": 0.0003655552864074707
+    },
+    {
+      "frame": "000081",
+      "points": 122880,
+      "occupied_pixels": 95457,
+      "inference_ms": 66.2104110015207,
+      "pipeline_ms": 126.62360799731687,
+      "mean_point_confidence": 0.9510881900787354,
+      "prob_sum_max_error": 0.00039505958557128906
+    },
+    {
+      "frame": "000082",
+      "points": 123000,
+      "occupied_pixels": 95408,
+      "inference_ms": 63.55967499985127,
+      "pipeline_ms": 120.95817600129521,
+      "mean_point_confidence": 0.949059784412384,
+      "prob_sum_max_error": 0.0003775358200073242
+    },
+    {
+      "frame": "000083",
+      "points": 123208,
+      "occupied_pixels": 94842,
+      "inference_ms": 62.1893249990535,
+      "pipeline_ms": 141.67390900183818,
+      "mean_point_confidence": 0.9518987536430359,
+      "prob_sum_max_error": 0.0003771185874938965
+    },
+    {
+      "frame": "000084",
+      "points": 123123,
+      "occupied_pixels": 95595,
+      "inference_ms": 67.38419699831866,
+      "pipeline_ms": 120.17526499766973,
+      "mean_point_confidence": 0.9510419964790344,
+      "prob_sum_max_error": 0.0003688335418701172
+    },
+    {
+      "frame": "000085",
+      "points": 123101,
+      "occupied_pixels": 94994,
+      "inference_ms": 63.692243998957565,
+      "pipeline_ms": 120.55049300033716,
+      "mean_point_confidence": 0.948065459728241,
+      "prob_sum_max_error": 0.0003814697265625
+    },
+    {
+      "frame": "000086",
+      "points": 123052,
+      "occupied_pixels": 95750,
+      "inference_ms": 63.55844000063371,
+      "pipeline_ms": 123.76396499894327,
+      "mean_point_confidence": 0.9513940811157227,
+      "prob_sum_max_error": 0.0003796815872192383
+    },
+    {
+      "frame": "000087",
+      "points": 123331,
+      "occupied_pixels": 96004,
+      "inference_ms": 64.12975099738105,
+      "pipeline_ms": 123.96074399657664,
+      "mean_point_confidence": 0.9574408531188965,
+      "prob_sum_max_error": 0.0003610849380493164
+    },
+    {
+      "frame": "000088",
+      "points": 123240,
+      "occupied_pixels": 95872,
+      "inference_ms": 69.84272900081123,
+      "pipeline_ms": 124.29869800325832,
+      "mean_point_confidence": 0.9611709117889404,
+      "prob_sum_max_error": 0.00037658214569091797
+    },
+    {
+      "frame": "000089",
+      "points": 123271,
+      "occupied_pixels": 96472,
+      "inference_ms": 71.9432770019921,
+      "pipeline_ms": 138.20423399738502,
+      "mean_point_confidence": 0.9605064988136292,
+      "prob_sum_max_error": 0.0003644227981567383
+    },
+    {
+      "frame": "000090",
+      "points": 123264,
+      "occupied_pixels": 96307,
+      "inference_ms": 72.97853999989456,
+      "pipeline_ms": 132.87179799954174,
+      "mean_point_confidence": 0.9589303135871887,
+      "prob_sum_max_error": 0.0003619194030761719
+    },
+    {
+      "frame": "000091",
+      "points": 123333,
+      "occupied_pixels": 96984,
+      "inference_ms": 67.64266400205088,
+      "pipeline_ms": 136.2723719976202,
+      "mean_point_confidence": 0.9597468972206116,
+      "prob_sum_max_error": 0.00041407346725463867
+    },
+    {
+      "frame": "000092",
+      "points": 123448,
+      "occupied_pixels": 97503,
+      "inference_ms": 59.94795399965369,
+      "pipeline_ms": 164.81310299786855,
+      "mean_point_confidence": 0.961457371711731,
+      "prob_sum_max_error": 0.0003883838653564453
+    },
+    {
+      "frame": "000093",
+      "points": 123339,
+      "occupied_pixels": 97390,
+      "inference_ms": 62.46165400079917,
+      "pipeline_ms": 119.56679800277925,
+      "mean_point_confidence": 0.960117518901825,
+      "prob_sum_max_error": 0.00038182735443115234
+    },
+    {
+      "frame": "000094",
+      "points": 123436,
+      "occupied_pixels": 97816,
+      "inference_ms": 61.55139000111376,
+      "pipeline_ms": 132.1290739979304,
+      "mean_point_confidence": 0.9579588770866394,
+      "prob_sum_max_error": 0.0003908872604370117
+    },
+    {
+      "frame": "000095",
+      "points": 123565,
+      "occupied_pixels": 97378,
+      "inference_ms": 58.758356997714145,
+      "pipeline_ms": 112.44218800129602,
+      "mean_point_confidence": 0.9562700390815735,
+      "prob_sum_max_error": 0.00037217140197753906
+    },
+    {
+      "frame": "000096",
+      "points": 123678,
+      "occupied_pixels": 97887,
+      "inference_ms": 63.530520998028805,
+      "pipeline_ms": 125.61343099878286,
+      "mean_point_confidence": 0.9541832804679871,
+      "prob_sum_max_error": 0.0003820657730102539
+    },
+    {
+      "frame": "000097",
+      "points": 123695,
+      "occupied_pixels": 98025,
+      "inference_ms": 57.26811600106885,
+      "pipeline_ms": 125.71240900069824,
+      "mean_point_confidence": 0.9481306672096252,
+      "prob_sum_max_error": 0.0003666877746582031
+    },
+    {
+      "frame": "000098",
+      "points": 123564,
+      "occupied_pixels": 97490,
+      "inference_ms": 60.27896799787413,
+      "pipeline_ms": 111.32786899906932,
+      "mean_point_confidence": 0.9518726468086243,
+      "prob_sum_max_error": 0.0003635287284851074
+    },
+    {
+      "frame": "000099",
+      "points": 123640,
+      "occupied_pixels": 97631,
+      "inference_ms": 64.94353800007957,
+      "pipeline_ms": 250.49125800069305,
+      "mean_point_confidence": 0.9543545246124268,
+      "prob_sum_max_error": 0.00038748979568481445
+    },
+    {
+      "frame": "000100",
+      "points": 123665,
+      "occupied_pixels": 97226,
+      "inference_ms": 59.429252996778814,
+      "pipeline_ms": 108.96284400223522,
+      "mean_point_confidence": 0.9518986344337463,
+      "prob_sum_max_error": 0.0003724098205566406
+    },
+    {
+      "frame": "000101",
+      "points": 123775,
+      "occupied_pixels": 97106,
+      "inference_ms": 57.50946400075918,
+      "pipeline_ms": 110.79998399873148,
+      "mean_point_confidence": 0.9635551571846008,
+      "prob_sum_max_error": 0.0003616213798522949
+    },
+    {
+      "frame": "000102",
+      "points": 123855,
+      "occupied_pixels": 97108,
+      "inference_ms": 57.78037900017807,
+      "pipeline_ms": 102.93162800007849,
+      "mean_point_confidence": 0.9642691016197205,
+      "prob_sum_max_error": 0.0003669857978820801
+    },
+    {
+      "frame": "000103",
+      "points": 123849,
+      "occupied_pixels": 96745,
+      "inference_ms": 61.40951500128722,
+      "pipeline_ms": 103.66997900200658,
+      "mean_point_confidence": 0.9641164541244507,
+      "prob_sum_max_error": 0.0003619194030761719
+    },
+    {
+      "frame": "000104",
+      "points": 124044,
+      "occupied_pixels": 97328,
+      "inference_ms": 56.59867999929702,
+      "pipeline_ms": 101.19795299760881,
+      "mean_point_confidence": 0.9642843008041382,
+      "prob_sum_max_error": 0.000377655029296875
+    },
+    {
+      "frame": "000105",
+      "points": 124031,
+      "occupied_pixels": 97062,
+      "inference_ms": 56.83220699938829,
+      "pipeline_ms": 100.24958199937828,
+      "mean_point_confidence": 0.9679487347602844,
+      "prob_sum_max_error": 0.0003578662872314453
+    },
+    {
+      "frame": "000106",
+      "points": 124066,
+      "occupied_pixels": 97363,
+      "inference_ms": 58.43463299970608,
+      "pipeline_ms": 101.50486000202363,
+      "mean_point_confidence": 0.9636794924736023,
+      "prob_sum_max_error": 0.00037282705307006836
+    },
+    {
+      "frame": "000107",
+      "points": 124319,
+      "occupied_pixels": 97584,
+      "inference_ms": 57.6729480017093,
+      "pipeline_ms": 104.09984500074643,
+      "mean_point_confidence": 0.962927520275116,
+      "prob_sum_max_error": 0.0003966093063354492
+    },
+    {
+      "frame": "000108",
+      "points": 124291,
+      "occupied_pixels": 97228,
+      "inference_ms": 58.5000620012579,
+      "pipeline_ms": 102.88906099958695,
+      "mean_point_confidence": 0.9634628295898438,
+      "prob_sum_max_error": 0.0003629922866821289
+    },
+    {
+      "frame": "000109",
+      "points": 124383,
+      "occupied_pixels": 97637,
+      "inference_ms": 59.87211799947545,
+      "pipeline_ms": 111.58071899990318,
+      "mean_point_confidence": 0.9632959365844727,
+      "prob_sum_max_error": 0.00039207935333251953
+    },
+    {
+      "frame": "000110",
+      "points": 124383,
+      "occupied_pixels": 97480,
+      "inference_ms": 57.27127700083656,
+      "pipeline_ms": 104.2265040014172,
+      "mean_point_confidence": 0.9648537039756775,
+      "prob_sum_max_error": 0.00036513805389404297
+    },
+    {
+      "frame": "000111",
+      "points": 124194,
+      "occupied_pixels": 97479,
+      "inference_ms": 65.42129700028454,
+      "pipeline_ms": 136.4952039984928,
+      "mean_point_confidence": 0.9616865515708923,
+      "prob_sum_max_error": 0.0003619194030761719
+    },
+    {
+      "frame": "000112",
+      "points": 124279,
+      "occupied_pixels": 97235,
+      "inference_ms": 56.999319000169635,
+      "pipeline_ms": 119.57096300102421,
+      "mean_point_confidence": 0.9618725180625916,
+      "prob_sum_max_error": 0.0003809332847595215
+    },
+    {
+      "frame": "000113",
+      "points": 124080,
+      "occupied_pixels": 96594,
+      "inference_ms": 57.29978300223593,
+      "pipeline_ms": 111.22036400047364,
+      "mean_point_confidence": 0.960717499256134,
+      "prob_sum_max_error": 0.0003712177276611328
+    },
+    {
+      "frame": "000114",
+      "points": 123959,
+      "occupied_pixels": 96876,
+      "inference_ms": 56.98199400285375,
+      "pipeline_ms": 159.03944999809028,
+      "mean_point_confidence": 0.9561729431152344,
+      "prob_sum_max_error": 0.0003986358642578125
+    },
+    {
+      "frame": "000115",
+      "points": 123981,
+      "occupied_pixels": 96541,
+      "inference_ms": 56.74001099760062,
+      "pipeline_ms": 184.63400800101226,
+      "mean_point_confidence": 0.9517725110054016,
+      "prob_sum_max_error": 0.0003745555877685547
+    },
+    {
+      "frame": "000116",
+      "points": 124013,
+      "occupied_pixels": 96276,
+      "inference_ms": 57.83560599957127,
+      "pipeline_ms": 124.65895399873261,
+      "mean_point_confidence": 0.9512513279914856,
+      "prob_sum_max_error": 0.0003622770309448242
+    },
+    {
+      "frame": "000117",
+      "points": 124198,
+      "occupied_pixels": 96580,
+      "inference_ms": 57.61117500151158,
+      "pipeline_ms": 147.8618760011159,
+      "mean_point_confidence": 0.9492540955543518,
+      "prob_sum_max_error": 0.0003790855407714844
+    },
+    {
+      "frame": "000118",
+      "points": 124034,
+      "occupied_pixels": 96349,
+      "inference_ms": 56.9762900013302,
+      "pipeline_ms": 159.4036189999315,
+      "mean_point_confidence": 0.9534153938293457,
+      "prob_sum_max_error": 0.0003731250762939453
+    },
+    {
+      "frame": "000119",
+      "points": 124233,
+      "occupied_pixels": 97034,
+      "inference_ms": 60.241900999244535,
+      "pipeline_ms": 134.12078799956362,
+      "mean_point_confidence": 0.9488773941993713,
+      "prob_sum_max_error": 0.000392913818359375
+    },
+    {
+      "frame": "000120",
+      "points": 124142,
+      "occupied_pixels": 96760,
+      "inference_ms": 60.21528100245632,
+      "pipeline_ms": 124.06134699995164,
+      "mean_point_confidence": 0.9525242447853088,
+      "prob_sum_max_error": 0.0003650188446044922
+    },
+    {
+      "frame": "000121",
+      "points": 124083,
+      "occupied_pixels": 96194,
+      "inference_ms": 61.89016999996966,
+      "pipeline_ms": 127.85500599784427,
+      "mean_point_confidence": 0.9520164132118225,
+      "prob_sum_max_error": 0.00036394596099853516
+    },
+    {
+      "frame": "000122",
+      "points": 123889,
+      "occupied_pixels": 95849,
+      "inference_ms": 60.45060099859256,
+      "pipeline_ms": 123.65754900019965,
+      "mean_point_confidence": 0.9533510208129883,
+      "prob_sum_max_error": 0.0003808736801147461
+    },
+    {
+      "frame": "000123",
+      "points": 123728,
+      "occupied_pixels": 95127,
+      "inference_ms": 58.15266699937638,
+      "pipeline_ms": 112.75732899957802,
+      "mean_point_confidence": 0.9522150158882141,
+      "prob_sum_max_error": 0.0003616213798522949
+    },
+    {
+      "frame": "000124",
+      "points": 123919,
+      "occupied_pixels": 95501,
+      "inference_ms": 65.27217100301641,
+      "pipeline_ms": 117.66863099910552,
+      "mean_point_confidence": 0.9546881914138794,
+      "prob_sum_max_error": 0.0003833770751953125
+    },
+    {
+      "frame": "000125",
+      "points": 123815,
+      "occupied_pixels": 95581,
+      "inference_ms": 61.484251000365475,
+      "pipeline_ms": 113.76837599891587,
+      "mean_point_confidence": 0.9542850255966187,
+      "prob_sum_max_error": 0.00039076805114746094
+    },
+    {
+      "frame": "000126",
+      "points": 124031,
+      "occupied_pixels": 95519,
+      "inference_ms": 57.51144000169006,
+      "pipeline_ms": 103.341398997145,
+      "mean_point_confidence": 0.9554592967033386,
+      "prob_sum_max_error": 0.00036704540252685547
+    },
+    {
+      "frame": "000127",
+      "points": 124186,
+      "occupied_pixels": 96052,
+      "inference_ms": 56.82623900065664,
+      "pipeline_ms": 111.60954700244474,
+      "mean_point_confidence": 0.9558823704719543,
+      "prob_sum_max_error": 0.0003669857978820801
+    },
+    {
+      "frame": "000128",
+      "points": 124139,
+      "occupied_pixels": 95706,
+      "inference_ms": 59.62543700297829,
+      "pipeline_ms": 113.41940099737258,
+      "mean_point_confidence": 0.9547939300537109,
+      "prob_sum_max_error": 0.0003854036331176758
+    },
+    {
+      "frame": "000129",
+      "points": 124108,
+      "occupied_pixels": 96333,
+      "inference_ms": 57.08119799965061,
+      "pipeline_ms": 107.55864800012205,
+      "mean_point_confidence": 0.953061044216156,
+      "prob_sum_max_error": 0.0004024505615234375
+    },
+    {
+      "frame": "000130",
+      "points": 124039,
+      "occupied_pixels": 96305,
+      "inference_ms": 57.4942139974155,
+      "pipeline_ms": 111.4781350006524,
+      "mean_point_confidence": 0.9506164193153381,
+      "prob_sum_max_error": 0.00036078691482543945
+    },
+    {
+      "frame": "000131",
+      "points": 123972,
+      "occupied_pixels": 96032,
+      "inference_ms": 57.46915900090244,
+      "pipeline_ms": 107.95639700154425,
+      "mean_point_confidence": 0.9501989483833313,
+      "prob_sum_max_error": 0.00037288665771484375
+    },
+    {
+      "frame": "000132",
+      "points": 124075,
+      "occupied_pixels": 96405,
+      "inference_ms": 58.06212300012703,
+      "pipeline_ms": 105.11456400126917,
+      "mean_point_confidence": 0.9486267566680908,
+      "prob_sum_max_error": 0.00038695335388183594
+    },
+    {
+      "frame": "000133",
+      "points": 124242,
+      "occupied_pixels": 96081,
+      "inference_ms": 58.0824329990719,
+      "pipeline_ms": 106.2907939995057,
+      "mean_point_confidence": 0.9473141431808472,
+      "prob_sum_max_error": 0.00037550926208496094
+    },
+    {
+      "frame": "000134",
+      "points": 124078,
+      "occupied_pixels": 95957,
+      "inference_ms": 61.90349900134606,
+      "pipeline_ms": 114.81648900007713,
+      "mean_point_confidence": 0.9485840201377869,
+      "prob_sum_max_error": 0.00036406517028808594
+    },
+    {
+      "frame": "000135",
+      "points": 124150,
+      "occupied_pixels": 95910,
+      "inference_ms": 59.35840199890663,
+      "pipeline_ms": 161.77708499890286,
+      "mean_point_confidence": 0.9517502784729004,
+      "prob_sum_max_error": 0.00036776065826416016
+    },
+    {
+      "frame": "000136",
+      "points": 124051,
+      "occupied_pixels": 96124,
+      "inference_ms": 57.55080100061605,
+      "pipeline_ms": 135.99592099853908,
+      "mean_point_confidence": 0.9530665278434753,
+      "prob_sum_max_error": 0.00036263465881347656
+    },
+    {
+      "frame": "000137",
+      "points": 124083,
+      "occupied_pixels": 96260,
+      "inference_ms": 57.01502699957928,
+      "pipeline_ms": 122.12052999893785,
+      "mean_point_confidence": 0.9482951760292053,
+      "prob_sum_max_error": 0.0004036426544189453
+    },
+    {
+      "frame": "000138",
+      "points": 124272,
+      "occupied_pixels": 95805,
+      "inference_ms": 56.605156998557504,
+      "pipeline_ms": 106.41015100190998,
+      "mean_point_confidence": 0.9408230185508728,
+      "prob_sum_max_error": 0.00039958953857421875
+    },
+    {
+      "frame": "000139",
+      "points": 124098,
+      "occupied_pixels": 96253,
+      "inference_ms": 65.84799899792415,
+      "pipeline_ms": 120.3181550008594,
+      "mean_point_confidence": 0.9435231685638428,
+      "prob_sum_max_error": 0.0003991127014160156
+    },
+    {
+      "frame": "000140",
+      "points": 124103,
+      "occupied_pixels": 96151,
+      "inference_ms": 57.943053001508815,
+      "pipeline_ms": 121.17525700159604,
+      "mean_point_confidence": 0.9442685842514038,
+      "prob_sum_max_error": 0.00036388635635375977
+    },
+    {
+      "frame": "000141",
+      "points": 124157,
+      "occupied_pixels": 95593,
+      "inference_ms": 57.3195510005462,
+      "pipeline_ms": 109.14985199997318,
+      "mean_point_confidence": 0.9498955607414246,
+      "prob_sum_max_error": 0.0004099607467651367
+    },
+    {
+      "frame": "000142",
+      "points": 123990,
+      "occupied_pixels": 96059,
+      "inference_ms": 58.899825999105815,
+      "pipeline_ms": 127.31791700207395,
+      "mean_point_confidence": 0.9472833871841431,
+      "prob_sum_max_error": 0.00038307905197143555
+    },
+    {
+      "frame": "000143",
+      "points": 124037,
+      "occupied_pixels": 95698,
+      "inference_ms": 60.45282400009455,
+      "pipeline_ms": 119.77152499821386,
+      "mean_point_confidence": 0.9430647492408752,
+      "prob_sum_max_error": 0.0003966689109802246
+    },
+    {
+      "frame": "000144",
+      "points": 124085,
+      "occupied_pixels": 95810,
+      "inference_ms": 61.04407399834599,
+      "pipeline_ms": 123.62527399818646,
+      "mean_point_confidence": 0.9466736912727356,
+      "prob_sum_max_error": 0.00036406517028808594
+    },
+    {
+      "frame": "000145",
+      "points": 124113,
+      "occupied_pixels": 95630,
+      "inference_ms": 63.655052003014134,
+      "pipeline_ms": 123.0545729995356,
+      "mean_point_confidence": 0.9448322653770447,
+      "prob_sum_max_error": 0.00040471553802490234
+    },
+    {
+      "frame": "000146",
+      "points": 124060,
+      "occupied_pixels": 95082,
+      "inference_ms": 60.50878699898021,
+      "pipeline_ms": 122.59712400191347,
+      "mean_point_confidence": 0.9434844851493835,
+      "prob_sum_max_error": 0.00037479400634765625
+    },
+    {
+      "frame": "000147",
+      "points": 124123,
+      "occupied_pixels": 95321,
+      "inference_ms": 58.311597000283655,
+      "pipeline_ms": 120.08619300104328,
+      "mean_point_confidence": 0.9456179141998291,
+      "prob_sum_max_error": 0.0003885030746459961
+    },
+    {
+      "frame": "000148",
+      "points": 123997,
+      "occupied_pixels": 95050,
+      "inference_ms": 57.008965999557404,
+      "pipeline_ms": 115.048358002241,
+      "mean_point_confidence": 0.9520197510719299,
+      "prob_sum_max_error": 0.0003660917282104492
+    },
+    {
+      "frame": "000149",
+      "points": 123947,
+      "occupied_pixels": 96049,
+      "inference_ms": 62.08201600020402,
+      "pipeline_ms": 130.06652900003246,
+      "mean_point_confidence": 0.9503394365310669,
+      "prob_sum_max_error": 0.0003725290298461914
+    },
+    {
+      "frame": "000150",
+      "points": 123924,
+      "occupied_pixels": 96593,
+      "inference_ms": 61.04178099849378,
+      "pipeline_ms": 123.40016500093043,
+      "mean_point_confidence": 0.9549074172973633,
+      "prob_sum_max_error": 0.00036525726318359375
+    },
+    {
+      "frame": "000151",
+      "points": 123981,
+      "occupied_pixels": 96043,
+      "inference_ms": 63.327826999739045,
+      "pipeline_ms": 127.21106900062296,
+      "mean_point_confidence": 0.9567795991897583,
+      "prob_sum_max_error": 0.0003622770309448242
+    },
+    {
+      "frame": "000152",
+      "points": 124207,
+      "occupied_pixels": 96431,
+      "inference_ms": 63.43719300275552,
+      "pipeline_ms": 123.64527399768122,
+      "mean_point_confidence": 0.9565612077713013,
+      "prob_sum_max_error": 0.00039196014404296875
+    },
+    {
+      "frame": "000153",
+      "points": 124131,
+      "occupied_pixels": 95879,
+      "inference_ms": 58.43282500063651,
+      "pipeline_ms": 108.81759000039892,
+      "mean_point_confidence": 0.9582574963569641,
+      "prob_sum_max_error": 0.000377655029296875
+    },
+    {
+      "frame": "000154",
+      "points": 124061,
+      "occupied_pixels": 95776,
+      "inference_ms": 59.364584001741605,
+      "pipeline_ms": 114.9343620018044,
+      "mean_point_confidence": 0.9600200057029724,
+      "prob_sum_max_error": 0.00036090612411499023
+    },
+    {
+      "frame": "000155",
+      "points": 124054,
+      "occupied_pixels": 95258,
+      "inference_ms": 59.38254599823267,
+      "pipeline_ms": 110.38863900103024,
+      "mean_point_confidence": 0.9612424373626709,
+      "prob_sum_max_error": 0.00036215782165527344
+    },
+    {
+      "frame": "000156",
+      "points": 124106,
+      "occupied_pixels": 94420,
+      "inference_ms": 60.659618000499904,
+      "pipeline_ms": 109.92184499991708,
+      "mean_point_confidence": 0.9628089666366577,
+      "prob_sum_max_error": 0.00036138296127319336
+    },
+    {
+      "frame": "000157",
+      "points": 123885,
+      "occupied_pixels": 94218,
+      "inference_ms": 56.80258699794649,
+      "pipeline_ms": 101.03412699754699,
+      "mean_point_confidence": 0.9472404718399048,
+      "prob_sum_max_error": 0.0003838539123535156
+    },
+    {
+      "frame": "000158",
+      "points": 123609,
+      "occupied_pixels": 93460,
+      "inference_ms": 57.610731997556286,
+      "pipeline_ms": 102.02641999785556,
+      "mean_point_confidence": 0.9327623248100281,
+      "prob_sum_max_error": 0.0003802776336669922
+    },
+    {
+      "frame": "000159",
+      "points": 123321,
+      "occupied_pixels": 93828,
+      "inference_ms": 61.32448999778717,
+      "pipeline_ms": 112.51543199978187,
+      "mean_point_confidence": 0.9484004974365234,
+      "prob_sum_max_error": 0.0003784298896789551
+    },
+    {
+      "frame": "000160",
+      "points": 122584,
+      "occupied_pixels": 93845,
+      "inference_ms": 64.16648699814687,
+      "pipeline_ms": 116.13925599885988,
+      "mean_point_confidence": 0.9386578798294067,
+      "prob_sum_max_error": 0.00036847591400146484
+    },
+    {
+      "frame": "000161",
+      "points": 122104,
+      "occupied_pixels": 93617,
+      "inference_ms": 64.35586799852899,
+      "pipeline_ms": 110.87974700058112,
+      "mean_point_confidence": 0.9532749652862549,
+      "prob_sum_max_error": 0.0003821849822998047
+    },
+    {
+      "frame": "000162",
+      "points": 121577,
+      "occupied_pixels": 94140,
+      "inference_ms": 57.59553799725836,
+      "pipeline_ms": 100.98509499948705,
+      "mean_point_confidence": 0.9623589515686035,
+      "prob_sum_max_error": 0.00036966800689697266
+    },
+    {
+      "frame": "000163",
+      "points": 120380,
+      "occupied_pixels": 93105,
+      "inference_ms": 57.50297999838949,
+      "pipeline_ms": 100.46750199762755,
+      "mean_point_confidence": 0.9617389440536499,
+      "prob_sum_max_error": 0.0003731250762939453
+    },
+    {
+      "frame": "000164",
+      "points": 119153,
+      "occupied_pixels": 92737,
+      "inference_ms": 56.15976400076761,
+      "pipeline_ms": 102.16880799998762,
+      "mean_point_confidence": 0.9608803391456604,
+      "prob_sum_max_error": 0.00038164854049682617
+    },
+    {
+      "frame": "000165",
+      "points": 118411,
+      "occupied_pixels": 92271,
+      "inference_ms": 61.6780580021441,
+      "pipeline_ms": 108.457312999235,
+      "mean_point_confidence": 0.958800196647644,
+      "prob_sum_max_error": 0.0003587007522583008
+    },
+    {
+      "frame": "000166",
+      "points": 117829,
+      "occupied_pixels": 91060,
+      "inference_ms": 57.105772000795696,
+      "pipeline_ms": 105.75440500178956,
+      "mean_point_confidence": 0.9575412273406982,
+      "prob_sum_max_error": 0.00037026405334472656
+    },
+    {
+      "frame": "000167",
+      "points": 117653,
+      "occupied_pixels": 91281,
+      "inference_ms": 57.767670001339866,
+      "pipeline_ms": 108.02787899956456,
+      "mean_point_confidence": 0.9559447169303894,
+      "prob_sum_max_error": 0.0003973841667175293
+    },
+    {
+      "frame": "000168",
+      "points": 117459,
+      "occupied_pixels": 90179,
+      "inference_ms": 61.18902299931506,
+      "pipeline_ms": 115.19134999980452,
+      "mean_point_confidence": 0.9633877277374268,
+      "prob_sum_max_error": 0.00036406517028808594
+    },
+    {
+      "frame": "000169",
+      "points": 117786,
+      "occupied_pixels": 90745,
+      "inference_ms": 59.9435980002454,
+      "pipeline_ms": 113.10816200057161,
+      "mean_point_confidence": 0.9642205834388733,
+      "prob_sum_max_error": 0.00038623809814453125
+    },
+    {
+      "frame": "000170",
+      "points": 119105,
+      "occupied_pixels": 92130,
+      "inference_ms": 58.86853399715619,
+      "pipeline_ms": 111.88593200131436,
+      "mean_point_confidence": 0.9617406129837036,
+      "prob_sum_max_error": 0.0003647804260253906
+    },
+    {
+      "frame": "000171",
+      "points": 120266,
+      "occupied_pixels": 92317,
+      "inference_ms": 68.16251700001885,
+      "pipeline_ms": 119.73523499909788,
+      "mean_point_confidence": 0.9638947248458862,
+      "prob_sum_max_error": 0.0003771781921386719
+    },
+    {
+      "frame": "000172",
+      "points": 121342,
+      "occupied_pixels": 94270,
+      "inference_ms": 73.01505400027963,
+      "pipeline_ms": 124.08296499779681,
+      "mean_point_confidence": 0.9671773314476013,
+      "prob_sum_max_error": 0.00037682056427001953
+    },
+    {
+      "frame": "000173",
+      "points": 121840,
+      "occupied_pixels": 94659,
+      "inference_ms": 61.77706200105604,
+      "pipeline_ms": 109.60830999829341,
+      "mean_point_confidence": 0.9664205312728882,
+      "prob_sum_max_error": 0.0003623366355895996
+    },
+    {
+      "frame": "000174",
+      "points": 122068,
+      "occupied_pixels": 95519,
+      "inference_ms": 61.156009000114864,
+      "pipeline_ms": 107.86052299954463,
+      "mean_point_confidence": 0.9637888073921204,
+      "prob_sum_max_error": 0.0003579854965209961
+    },
+    {
+      "frame": "000175",
+      "points": 122357,
+      "occupied_pixels": 95718,
+      "inference_ms": 58.95943699943018,
+      "pipeline_ms": 104.53423999933875,
+      "mean_point_confidence": 0.9641159176826477,
+      "prob_sum_max_error": 0.0003986358642578125
+    },
+    {
+      "frame": "000176",
+      "points": 122191,
+      "occupied_pixels": 95514,
+      "inference_ms": 62.04645100297057,
+      "pipeline_ms": 110.74554399965564,
+      "mean_point_confidence": 0.9631931185722351,
+      "prob_sum_max_error": 0.00036513805389404297
+    },
+    {
+      "frame": "000177",
+      "points": 121946,
+      "occupied_pixels": 95858,
+      "inference_ms": 60.39689999670372,
+      "pipeline_ms": 106.31237299821805,
+      "mean_point_confidence": 0.9629623293876648,
+      "prob_sum_max_error": 0.0004100799560546875
+    },
+    {
+      "frame": "000178",
+      "points": 121355,
+      "occupied_pixels": 95253,
+      "inference_ms": 56.25398900156142,
+      "pipeline_ms": 100.36423600104172,
+      "mean_point_confidence": 0.9640069007873535,
+      "prob_sum_max_error": 0.00036603212356567383
+    },
+    {
+      "frame": "000179",
+      "points": 120871,
+      "occupied_pixels": 95010,
+      "inference_ms": 57.329068000399275,
+      "pipeline_ms": 99.1736910000327,
+      "mean_point_confidence": 0.9643041491508484,
+      "prob_sum_max_error": 0.00037997961044311523
+    },
+    {
+      "frame": "000180",
+      "points": 120266,
+      "occupied_pixels": 94585,
+      "inference_ms": 60.59539800116909,
+      "pipeline_ms": 114.49888099741656,
+      "mean_point_confidence": 0.965221107006073,
+      "prob_sum_max_error": 0.00038176774978637695
+    },
+    {
+      "frame": "000181",
+      "points": 120068,
+      "occupied_pixels": 93829,
+      "inference_ms": 61.537976002000505,
+      "pipeline_ms": 112.23528700065799,
+      "mean_point_confidence": 0.964067280292511,
+      "prob_sum_max_error": 0.0003566741943359375
+    },
+    {
+      "frame": "000182",
+      "points": 120187,
+      "occupied_pixels": 93861,
+      "inference_ms": 58.69187600183068,
+      "pipeline_ms": 100.41528899819241,
+      "mean_point_confidence": 0.9621618390083313,
+      "prob_sum_max_error": 0.0003829002380371094
+    },
+    {
+      "frame": "000183",
+      "points": 119966,
+      "occupied_pixels": 93191,
+      "inference_ms": 58.435756000108086,
+      "pipeline_ms": 102.90757799884886,
+      "mean_point_confidence": 0.9606589078903198,
+      "prob_sum_max_error": 0.0003644227981567383
+    },
+    {
+      "frame": "000184",
+      "points": 120105,
+      "occupied_pixels": 92906,
+      "inference_ms": 56.13102999996045,
+      "pipeline_ms": 98.96348500114982,
+      "mean_point_confidence": 0.9601042866706848,
+      "prob_sum_max_error": 0.00036144256591796875
+    },
+    {
+      "frame": "000185",
+      "points": 120660,
+      "occupied_pixels": 93256,
+      "inference_ms": 57.030799998756265,
+      "pipeline_ms": 100.59861300032935,
+      "mean_point_confidence": 0.9616495966911316,
+      "prob_sum_max_error": 0.00036644935607910156
+    },
+    {
+      "frame": "000186",
+      "points": 121251,
+      "occupied_pixels": 93913,
+      "inference_ms": 56.959236000693636,
+      "pipeline_ms": 108.86311799913528,
+      "mean_point_confidence": 0.961571216583252,
+      "prob_sum_max_error": 0.00036835670471191406
+    },
+    {
+      "frame": "000187",
+      "points": 121797,
+      "occupied_pixels": 94730,
+      "inference_ms": 57.11497800075449,
+      "pipeline_ms": 104.87412699876586,
+      "mean_point_confidence": 0.9613101482391357,
+      "prob_sum_max_error": 0.00036513805389404297
+    },
+    {
+      "frame": "000188",
+      "points": 122259,
+      "occupied_pixels": 95313,
+      "inference_ms": 57.26915099876351,
+      "pipeline_ms": 109.31651699866052,
+      "mean_point_confidence": 0.9598162174224854,
+      "prob_sum_max_error": 0.0004031658172607422
+    },
+    {
+      "frame": "000189",
+      "points": 122481,
+      "occupied_pixels": 95676,
+      "inference_ms": 56.81061099676299,
+      "pipeline_ms": 102.1200190007221,
+      "mean_point_confidence": 0.9611809849739075,
+      "prob_sum_max_error": 0.0004024505615234375
+    },
+    {
+      "frame": "000190",
+      "points": 122527,
+      "occupied_pixels": 95780,
+      "inference_ms": 57.427018000453245,
+      "pipeline_ms": 102.47501699996064,
+      "mean_point_confidence": 0.9630752801895142,
+      "prob_sum_max_error": 0.00035750865936279297
+    },
+    {
+      "frame": "000191",
+      "points": 122891,
+      "occupied_pixels": 95710,
+      "inference_ms": 59.09204900308396,
+      "pipeline_ms": 103.12967600111733,
+      "mean_point_confidence": 0.9622706174850464,
+      "prob_sum_max_error": 0.00036007165908813477
+    },
+    {
+      "frame": "000192",
+      "points": 122875,
+      "occupied_pixels": 95968,
+      "inference_ms": 56.98973200196633,
+      "pipeline_ms": 108.82190299889771,
+      "mean_point_confidence": 0.9603255987167358,
+      "prob_sum_max_error": 0.00037169456481933594
+    },
+    {
+      "frame": "000193",
+      "points": 123068,
+      "occupied_pixels": 95757,
+      "inference_ms": 59.74688499918557,
+      "pipeline_ms": 105.59027600174886,
+      "mean_point_confidence": 0.9614623188972473,
+      "prob_sum_max_error": 0.00036472082138061523
+    },
+    {
+      "frame": "000194",
+      "points": 123279,
+      "occupied_pixels": 96428,
+      "inference_ms": 58.543194998492254,
+      "pipeline_ms": 113.78764400069485,
+      "mean_point_confidence": 0.961382269859314,
+      "prob_sum_max_error": 0.0003737807273864746
+    },
+    {
+      "frame": "000195",
+      "points": 123169,
+      "occupied_pixels": 96429,
+      "inference_ms": 58.7693589986884,
+      "pipeline_ms": 108.56677400079207,
+      "mean_point_confidence": 0.9623044729232788,
+      "prob_sum_max_error": 0.00036066770553588867
+    },
+    {
+      "frame": "000196",
+      "points": 123200,
+      "occupied_pixels": 96560,
+      "inference_ms": 64.07790199955343,
+      "pipeline_ms": 155.0520150012744,
+      "mean_point_confidence": 0.9635619521141052,
+      "prob_sum_max_error": 0.00036263465881347656
+    },
+    {
+      "frame": "000197",
+      "points": 123260,
+      "occupied_pixels": 96832,
+      "inference_ms": 60.51799799752189,
+      "pipeline_ms": 129.2790640000021,
+      "mean_point_confidence": 0.9641515016555786,
+      "prob_sum_max_error": 0.0003654956817626953
+    },
+    {
+      "frame": "000198",
+      "points": 123007,
+      "occupied_pixels": 96620,
+      "inference_ms": 57.102093000139575,
+      "pipeline_ms": 107.69081200123765,
+      "mean_point_confidence": 0.9642065167427063,
+      "prob_sum_max_error": 0.00036406517028808594
+    },
+    {
+      "frame": "000199",
+      "points": 122898,
+      "occupied_pixels": 96613,
+      "inference_ms": 59.128394997969735,
+      "pipeline_ms": 310.9498489975522,
+      "mean_point_confidence": 0.9650629758834839,
+      "prob_sum_max_error": 0.00041097402572631836
+    }
+  ]
+}
